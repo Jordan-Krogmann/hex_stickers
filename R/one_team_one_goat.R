@@ -16,10 +16,10 @@ sticker(
   , h_color = "dodgerblue4"
   , h_fill = "white"
   , p_size = 80
-
   , s_x = 1
   , s_y = 1
-  , s_width = .6
+  , s_width = .8
+  , s_height = .8
   , filename = here::here("imgs","bb_yoda_cradle_hex.png")
   , dpi = 2000
   )
