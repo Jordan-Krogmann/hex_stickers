@@ -5,23 +5,28 @@
 library(hexSticker)
 
 # path to img
-sticker_path <- file.path(here::here("imgs","bb_yoda_cradle.png"))
+sticker_path <- file.path(here::here("imgs","mranda.png"))
 
 
 # create hex sticker
 sticker(
   sticker_path
-  , package = ""
-  , p_color = "dodgerblue4"
-  , h_color = "dodgerblue4"
-  , h_fill = "white"
+  , package = "ReMaT"
+  , p_color = "seashell"
+  , p_x = 1
+  , p_y = .35
+  , h_color = "seashell"
+  , h_fill = "dodgerblue4"
   , p_size = 80
   , s_x = 1
-  , s_y = 1
+  , s_y = 1.2
   , s_width = .8
   , s_height = .8
-  , filename = here::here("imgs","bb_yoda_cradle_hex.png")
+  , filename = here::here("imgs","mranda_hex.png")
   , dpi = 2000
+  , url = "www.snhu.edu"
+  , u_color = "seashell"
+  , u_size = 30
   )
 
 
