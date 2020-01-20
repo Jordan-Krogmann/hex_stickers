@@ -10,7 +10,7 @@ sticker_path <- file.path(here::here("imgs","mranda.png"))
 
 # create hex sticker
 sticker(
-  sticker_path
+sticker_path
   , package = "ReMaT"
   , p_color = "seashell"
   , p_x = 1
@@ -24,9 +24,11 @@ sticker(
   , s_height = .8
   , filename = here::here("imgs","mranda_hex.png")
   , dpi = 2000
-  , url = "www.snhu.edu"
+  , url = "challenge the status quo"
   , u_color = "seashell"
   , u_size = 30
+  , u_x = .35
+  , u_y = 1.57
   )
 
 
