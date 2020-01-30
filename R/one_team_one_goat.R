@@ -5,7 +5,7 @@
 library(hexSticker)
 
 # path to img
-sticker_path <- file.path(here::here("imgs","sextant_white_2.png"))
+sticker_path <- file.path(here::here("imgs","sextant_white.png"))
 
 
 # create hex sticker
