@@ -20,24 +20,24 @@ sticker(
   , h_size = 1.4
   , h_color = "#727577"
   , h_fill = "#071b39"
-  # , package = "ReMap: Plus One"
-  # , p_family = "gochi"
-  # , p_color = "#fdb913"
+  , package = "  "
+  , p_family = "gochi"
+  , p_color = "#fdb913"
   , p_x = 1
   , p_y = 1.45
   , p_size = 100
-  , s_x = .97
-  , s_y = .82
-  , s_width = .6
-  , s_height = .6
+  , s_x = 1
+  , s_y = .85
+  , s_width = .8
+  , s_height = .8
   , filename = here::here("imgs","matec_hex.png")
   , dpi = 2000
-  # , url = "measure once, test never"
-  # , u_color = "#fdb913"
-  # , u_family = "gochi"
-  # , u_size = 48
-  # , u_x = .99
-  # , u_y = .085
+  , url = " "
+  , u_color = "#fdb913"
+  , u_family = "gochi"
+  , u_size = 48
+  , u_x = .99
+  , u_y = .085
   )
 
 
