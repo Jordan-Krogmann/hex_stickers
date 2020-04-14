@@ -30,9 +30,9 @@ sticker(
   , p_y = .4
   , p_size = 80
   , s_x = 1
-  , s_y = 1.10
-  , s_width = .75
-  , s_height = .75
+  , s_y = 1.13
+  , s_width = .7
+  , s_height = .7
   , filename = here::here("imgs","quant_hex.png")
   , dpi = 2000
   , url = "staying inside the wheelhouse"
