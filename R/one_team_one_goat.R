@@ -11,33 +11,36 @@ showtext_auto()
 
 
 # path to img
-sticker_path <- file.path(here::here("imgs","sarbina.png"))
+sticker_path <- file.path(here::here("imgs","dogan.png"))
 
+# 
+# , h_color = "#727577"
+# , h_fill = "#071b39"
 
 # create hex sticker
 sticker(
     sticker_path
   , h_size = 1.4
-  , h_color = "#727577"
-  , h_fill = "#071b39"
-  , package = "  "
+  , h_color = "#071b39"
+  , h_fill = "#efefef"
+  , package = "Just a Quant"
   , p_family = "gochi"
-  , p_color = "#fdb913"
-  , p_x = 1.1
-  , p_y = 1.6
-  , p_size = 100
-  , s_x = 1.05
-  , s_y = .92
-  , s_width = 1
-  , s_height = 1
-  , filename = here::here("imgs","sarbina_hex.png")
+  , p_color = "dodgerblue4"
+  , p_x = 1
+  , p_y = .4
+  , p_size = 80
+  , s_x = 1
+  , s_y = 1.10
+  , s_width = .75
+  , s_height = .75
+  , filename = here::here("imgs","quant_hex.png")
   , dpi = 2000
-  , url = " "
-  , u_color = "#fdb913"
+  , url = "staying inside the wheelhouse"
+  , u_color = "dodgerblue4"
   , u_family = "gochi"
-  , u_size = 48
-  , u_x = .99
-  , u_y = .085
+  , u_size = 35
+  , u_x = .22
+  , u_y = 1.48
   )
 
 
