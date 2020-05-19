@@ -11,7 +11,7 @@ showtext_auto()
 
 
 # path to img
-sticker_path <- file.path(here::here("imgs","dogan.png"))
+sticker_path <- file.path(here::here("imgs","goose.png"))
 
 # 
 # , h_color = "#727577"
@@ -21,11 +21,11 @@ sticker_path <- file.path(here::here("imgs","dogan.png"))
 sticker(
     sticker_path
   , h_size = 1.4
-  , h_color = "#071b39"
-  , h_fill = "#efefef"
-  , package = "Just a Quant"
+  , h_color = "#ffffff"
+  , h_fill = "#23395b"
+  , package = "Lucey Gucey"
   , p_family = "gochi"
-  , p_color = "dodgerblue4"
+  , p_color = "#ffffff"
   , p_x = 1
   , p_y = .4
   , p_size = 80
@@ -33,12 +33,12 @@ sticker(
   , s_y = 1.13
   , s_width = .7
   , s_height = .7
-  , filename = here::here("imgs","quant_hex.png")
+  , filename = here::here("imgs","lucey_gucey_hex.png")
   , dpi = 2000
-  , url = "staying inside the wheelhouse"
-  , u_color = "dodgerblue4"
+  , url = "El Presidente of Digital Performance"
+  , u_color = "#ffffff"
   , u_family = "gochi"
-  , u_size = 35
+  , u_size = 30
   , u_x = .22
   , u_y = 1.48
   )
