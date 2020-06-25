@@ -11,7 +11,7 @@ showtext_auto()
 
 
 # path to img
-sticker_path <- file.path(here::here("imgs","goose.png"))
+sticker_path <- file.path(here::here("imgs","sandbag.jpg"))
 
 # 
 # , h_color = "#727577"
@@ -21,26 +21,26 @@ sticker_path <- file.path(here::here("imgs","goose.png"))
 sticker(
     sticker_path
   , h_size = 1.4
-  , h_color = "#ffffff"
-  , h_fill = "#23395b"
-  , package = "Lucey Gucey"
+  , h_color = "#000000"
+  , h_fill = "#FFFFFF"
+  , package = "Making fOrEcASts"
   , p_family = "gochi"
-  , p_color = "#ffffff"
+  , p_color = "#000000"
   , p_x = 1
   , p_y = .4
   , p_size = 80
   , s_x = 1
-  , s_y = 1.13
-  , s_width = .7
-  , s_height = .7
-  , filename = here::here("imgs","lucey_gucey_hex.png")
+  , s_y = 1
+  , s_width = .5
+  , s_height = .5
+  , filename = here::here("imgs","sand_bag_hex.png")
   , dpi = 2000
-  , url = "El Presidente of Digital Performance"
-  , u_color = "#ffffff"
+  , url = "Being Conservative for Convservative's Sake"
+  , u_color = "#000000"
   , u_family = "gochi"
   , u_size = 30
-  , u_x = .22
-  , u_y = 1.48
+  , u_x = .17
+  , u_y = 1.38
   )
 
 
