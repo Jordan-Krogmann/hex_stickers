@@ -28,7 +28,7 @@ sticker(
   , s_y = 1
   , s_width = .5
   , s_height = .5
-  , filename = here::here("imgs","forecast_hex.png")
+  , filename = here::here("imgs","forecast_hex_alt.png")
   , dpi = 2000
   , url = "Being Conservative for Convservative's Sake"
   , u_color = "#000000"
