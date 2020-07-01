@@ -9,17 +9,12 @@ font_add_google("Gochi Hand", "gochi")
 ## Automatically use showtext to render text for future devices
 showtext_auto()
 
-
 # path to img
 sticker_path <- file.path(here::here("imgs","sandbag.jpg"))
 
-# 
-# , h_color = "#727577"
-# , h_fill = "#071b39"
-
 # create hex sticker
 sticker(
-    sticker_path
+    fplt
   , h_size = 1.4
   , h_color = "#000000"
   , h_fill = "#FFFFFF"
@@ -33,7 +28,7 @@ sticker(
   , s_y = 1
   , s_width = .5
   , s_height = .5
-  , filename = here::here("imgs","sand_bag_hex.png")
+  , filename = here::here("imgs","forecast_hex.png")
   , dpi = 2000
   , url = "Being Conservative for Convservative's Sake"
   , u_color = "#000000"
@@ -42,6 +37,8 @@ sticker(
   , u_x = .17
   , u_y = 1.38
   )
+
+
 
 
 
