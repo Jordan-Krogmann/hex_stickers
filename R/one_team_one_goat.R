@@ -15,8 +15,6 @@ showtext_auto()
 # path to img
 sticker_path <- file.path(here::here("imgs","analytics_alt.jpg"))
 
-
-
 # create hex sticker
 sticker(
   sticker_path ,

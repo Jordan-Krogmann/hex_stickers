@@ -7,19 +7,20 @@ library(tidyverse)
 library(snhuthemes)
 
 
+# different font
 font_add_google("Oswald")
 showtext_auto()
 
-# adding forecast plot
-df <- tribble(
-   ~x,   ~y,     ~z,
-    1,   .5,    .75,
-    2,    1,   1.25,
-    3,  .75,      1,
-    4,  1.25,   1.75,
-    5,  1,   1.5
-)
 
+# adding forecast plot
+x <- seq(0,1000, by = .5)
+
+df <- as_tibble(x = x)
+
+df <- df %>% 
+  mutate(x_square = x^1.25) %>% 
+  mutate(y = x) %>% 
+  rename(x = value)
 
 p <- df %>% 
   filter(x <= 5) %>%
@@ -29,6 +30,7 @@ p <- df %>%
   theme_void() + 
   theme_transparent()
 
+# create hex sticker
 sticker(
   p,
   package = " ", 
