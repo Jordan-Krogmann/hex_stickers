@@ -26,8 +26,8 @@ p <- df %>%
   filter(x <= 5) %>%
   ggplot(aes(x = x)) + 
   geom_col(aes(y = y), size = .5, color = "#efefef", fill = "#2066a2", linetype = 1) +
-  geom_line(aes(y = z), size = 1, color = "firebrick4") +
-  geom_point(aes(y = z), size = 2, color = "firebrick4") +
+  geom_line(aes(y = z), size = 1, color = "#dba02b") +
+  geom_point(aes(y = z), size = 2, color = "#dba02b") +
   expand_limits(y = 2) + 
   theme_void() + 
   theme_transparent()
@@ -47,8 +47,8 @@ sticker(
   s_y = .7, 
   s_width = 1, 
   s_height = .6,
-  h_fill = "#071b39",
-  h_color = "#d4d6d9",
+  h_fill = "#0a3370",
+  h_color = "#efefef",
   filename = here::here("imgs","analytics_hex.png"),
   url = "In God we trust, all others must bring data.",
   u_size = 8,
